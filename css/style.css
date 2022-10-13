@@ -1,0 +1,45 @@
+/* La largeur superieur ou egale à 1024*/
+
+/* Modification Nav ("menu") */
+
+@media screen and (min-width:1024px) {
+   
+    .menu {
+            list-style-type: none;
+            grid-column: 2/4;
+            grid-row: 1/1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 10px;
+        }
+    
+    nav {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
+    .menu li a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+    
+    li {
+            margin-top: 15%;
+        }
+    
+    .bare_menu {
+            display: none;
+        }
+    
+    .logo {
+            margin: 10px;
+            width: 100px;
+        }
+    
+        /*Modification header ('En-tete du site ')*/
+    header {
+            background: black;
+            margin: 10px;
+        }
+}
